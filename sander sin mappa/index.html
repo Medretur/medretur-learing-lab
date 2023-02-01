@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+         
+    </style>
 </head>
 <body>
-    <div class="classtarget"></div>
-    <p id="target"></p>
+    <div  id="kurt"  class="classtarget"></div>
+    <p id="target" onclick="myFunction()" style="min-height: 40px;width: 50px;background-color: yellow;"></p>
+    <script>
+        
+        function myFunction() {
+            let paragraph = document.getElementById("target");
+
+            paragraph.innerHTML = "<a href='https://en.wikipedia.org/wiki/Roman_concrete'>romer betong</a>";
+        }
+
+        
+    </script>
 </body>
 </html>
-
