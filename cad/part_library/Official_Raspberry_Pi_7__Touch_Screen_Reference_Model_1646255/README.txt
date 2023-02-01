@@ -1,0 +1,1 @@
+Official Raspberry Pi 7" Touch Screen Reference Model by clough42 on Thingiverse: https://www.thingiverse.com/thing:1646255
