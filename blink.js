@@ -1,5 +1,5 @@
 var gpio = require("onoff").Gpio;
-var LED = new gpio(17, "out");
+var LED = new gpio(11, "out");
 var blinkinterval = setInterval(blinkLED, 250);
 
 function blinkLED() {
