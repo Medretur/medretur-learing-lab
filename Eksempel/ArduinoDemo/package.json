@@ -1,0 +1,16 @@
+{
+  "name": "arduinodemo",
+  "version": "1.0.0",
+  "description": "demo for å bruke Arduino som ekstern IO kort, via Firmata og and firmata.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Lars Birger Bergmål",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "firmata": "^2.3.0",
+    "prompt-sync": "^4.2.0",
+    "serialport": "^10.5.0"
+  }
+}
