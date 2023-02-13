@@ -1,0 +1,15 @@
+{
+  "name": "mikrokontroller",
+  "version": "1.0.0",
+  "description": "test av mikrokontroller",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Sander",
+  "license": "ISC",
+  "dependencies": {
+    "fermata": "^0.11.1",
+    "serialport": "^10.5.0"
+  }
+}
